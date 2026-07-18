@@ -1,8 +1,8 @@
 # RL
 
-Implementing reinforcement learning from scratch — a 3-day sprint from tabular Q-learning up through deep RL.
+Reinforcement learning projects, implemented from scratch.
 
-## Day 1 — Tabular Q-learning on FrozenLake
+## Tabular Q-learning on FrozenLake
 
 `qlearning.py` trains an agent on [FrozenLake-v1](https://gymnasium.farama.org/environments/toy_text/frozen_lake/) (Gymnasium) using a plain numpy Q-table. No neural nets, no frameworks — just the Bellman update applied step by step:
 
